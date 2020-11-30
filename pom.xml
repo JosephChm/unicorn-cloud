@@ -7,17 +7,13 @@
     <groupId>joseph.chen</groupId>
     <artifactId>unicorn-cloud</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.0.0</version>
 
     <modules>
         <module>unicorn-common</module>
-        <module>unicorn-logging</module>
-        <module>unicorn-system</module>
-        <module>unicorn-tools</module>
-        <module>unicorn-generator</module>
     </modules>
 
-    <name>UNICORN-CLOUD SYSTEM</name>
+    <name>unicorn-cloud</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -95,11 +91,6 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
             <version>${druid.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.lionsoul</groupId>
-            <artifactId>ip2region</artifactId>
-            <version>1.7.2</version>
         </dependency>
 
         <!--Spring boot 测试-->
