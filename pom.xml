@@ -7,7 +7,7 @@
     <groupId>joseph.chen</groupId>
     <artifactId>unicorn-cloud</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <modules>
         <module>unicorn-common</module>

@@ -10,7 +10,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>unicorn-common</artifactId>
-    <name>common</name>
+    <artifactId>unicorn-logging</artifactId>
+    <name>logging</name>
 
 </project>
