@@ -1,0 +1,8 @@
+package joseph.chen.unicornsystem.repository;
+
+import joseph.chen.unicornsystem.domain.dto.Ingredient;
+import org.springframework.data.repository.CrudRepository;
+
+public interface IngredientRepository extends CrudRepository<Ingredient, String> {
+
+}
