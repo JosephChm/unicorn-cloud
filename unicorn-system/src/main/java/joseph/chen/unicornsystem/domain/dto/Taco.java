@@ -17,16 +17,16 @@ import java.util.List;
 public class Taco {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private LocalDateTime createdAt;
 
     @NotNull
-    @Size(min = 5,message = "Name must be at least 5 characters long")
+    @Size(min = 5, message = "Name must be at least 5 characters long")
     private String name;
 
-    @ManyToMany(targetEntity=Ingredient.class)
+    @ManyToMany(targetEntity = Ingredient.class)
     @Size(min = 1, message = "You must choose at least 1 Ingredient")
     private List<Ingredient> ingredients = new ArrayList<>();
 
