@@ -1,4 +1,4 @@
-package joseph.chen.unicornsystem.security;
+package joseph.chen.unicornsystem.config.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
